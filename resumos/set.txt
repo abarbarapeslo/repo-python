@@ -1,0 +1,12 @@
+# Set categoriza Conjuntos
+
+- Conjuntos não podem ser indexados, ao menos que ele seja passado para uma Lista, e aí sim, pode ser indexado.
+- Os valores dentro de um conjunto não são lidos se duplicados, pode conter um valor duplicado dentro de um conjunto
+porém, esse valor só será lidos 1 vez.
+
+Os conjuntos são lidos da seguinte forma ->
+
+set('valor','valor2',) ou variavel = {'valor','valor2',}
+
+
+

@@ -1,0 +1,5 @@
+# Entendendo Tuplas
+
+ Apesar de parecer com a lista, as duas se diferenciam por questões bem importantes.
+
+    A tupla é uma estrutura IMUTÁVEL, então não é possível alterar os itens de uma tupla.

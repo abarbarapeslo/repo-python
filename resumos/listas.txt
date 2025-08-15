@@ -1,0 +1,24 @@
+# Manipulação de   'Listas'
+
+ Métodos:
+- append() -> Adicionar item à uma lista
+- clear() -> Limpar todos os itens de uma lista
+- copy() -> Copiar uma lista de forma que, a sua cópia se torna uma nova lista
+- index() -> Localizar a posição de um item de numa lista
+- pop() -> Retira o ÚLTIMO item de uma lista, seguindo o conceito de 'Pilhas'. 
+- remove() -> Retira o item especificado de uma lista.
+- reverse() -> Faz o reverse de itens de uma lista.
+- sort() -> Ordena a lista alfabeticamente
+- len() -> Verifica o tamanho de uma lista, quantos itens ela tem.
+- sorted() -> Ordena iteráveis dentro de uma lista em ordem alfabética.
+
+OBS: 
+ - Dentro do sort() é possível passar alguma chave, por exemplo lista.sort(reverse=True) ou lista.sort(key=...)
+    O primeiro método com a chave 'reverse=True' faria que os itens de ordem alfabetica fossem revertidos, ou seja,
+ a última letra do alfabeto começaria primeiro até a chegar a primeira letra do alfabeto.
+    O segundo método sendo 'lista.sort(key=lambda x: len(x)) irá deixar em ordem alfabetica, porém, dos itens que
+ contém o menor tamanho até o maior. 
+
+ -> No caso, o len() lê o tamanho de uma string. 
+ -> O lambda é uma função anônima e o argumento 'x' é cada item da lista. 
+
